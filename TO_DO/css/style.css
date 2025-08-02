@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.container{
+    max-width: 600px;
+    margin: 25px auto;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 10px rgb(141, 134, 134);
+    padding: 20px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 69%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+button{
+    background-color: rgb(28, 124, 124);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+#todo-list{
+    list-style: none;
+}
+#todo-list li{
+    display: flex;
+    justify-content: space-between;
+}
+.delete-button{
+    background-color: orange;
+}
